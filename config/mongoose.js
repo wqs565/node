@@ -2,7 +2,7 @@
  * Created by wqs on 2017/7/4.
  */
 var mongoose = require('mongoose');
-
+mongoose.Promise = global.Promise;
 var config = require('./config.js');
 
 module.exports = function () {
